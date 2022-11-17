@@ -1,0 +1,93 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background: #cee4f7;
+}
+
+h1, h6{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    padding: 50px 0;
+    font-size: 25px;
+}
+
+.inputs-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputs-block{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.inputs-block-column h6, .range-block h6, .result-block h6{
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+.total-numb h6{
+    padding: 0;
+}
+
+.total-numb input{
+    margin: 15px auto;
+    cursor: auto;
+    text-align: center;
+    border: none;
+    background-color: #cee4f7;
+    font-size: 20px;
+    padding: 0;
+    outline: none;
+    border: 3px solid rgba(0, 0, 255, .25);
+    border-radius: 20px;
+    width: 250px;
+}
+
+#money-box-range{
+    accent-color: rgb(0, 0, 255);
+}
+
+.result-block{
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.total-numb{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-wrapper input{
+    border: 3px solid rgba(0, 0, 255, .25);
+    border-radius: 20px;
+    width: 250px;
+    padding: 5px;
+}
+
+.inputs-wrapper input:focus{
+    background-color: rgba(0, 0, 255, .25);
+}
+
+[placeholder]{
+    font-family: 'Montserrat', sans-serif;
+}
+
